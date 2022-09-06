@@ -26,7 +26,7 @@ git clone https://github.com/jefferson-alves-dev/chromiumdownloader.git
 Install the necessary dependencies.
 
 ```bash
-pip install -r requirements.txt
+pip install -r .\chromiumdownloader\requirements.txt
 ```
 
 ### Using Chromium Downloader in a Python script
