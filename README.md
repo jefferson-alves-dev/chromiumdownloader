@@ -4,7 +4,7 @@ Have ideas for how Chromium Downloader can be improved? Feel free to open an iss
 
 # Chromium Downloader
 
-*Chromium Downloader* is a genuine and lightweight Python library to automatically download the latest version of Chromium browser and Chromedriver.
+_Chromium Downloader_ is a genuine and lightweight Python library to automatically download the latest version of Chromium browser and Chromedriver.
 
 ## Features
 
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 To download the Chromium browser and Chromedriver, you will need to import the ChromiumFileHandler class from the chromiumdownloader module.
 
 ```python
-from chromiumdownloader import ChromiumFileHandler
+from chromiumdownloader.handler import ChromiumFileHandler
 
 app = ChromiumFileHandler()
 app.run()
